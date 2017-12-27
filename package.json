@@ -2,10 +2,13 @@
   "name": "nodejs-102",
   "version": "1.0.0",
   "description": "",
+  "engines": {
+    "node": "6.11.1"
+  },
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "author": "VZA",
   "license": "ISC",
@@ -19,5 +22,9 @@
     "mysql": "^2.15.0",
     "nodemon": "^1.14.3",
     "socket.io": "^2.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/laocoding/nodejs-102"
   }
 }
